@@ -1,0 +1,14 @@
+.flex-container {
+    display: grid;
+    grid-template-columns: 360px 360px 360px 360px 360px 360px;
+    grid-template-rows: 510px ;
+    justify-content: center;
+}
+img {
+    width: 350px;
+    height: 500px;
+    max-width: 100%; /* 讓圖片隨著父元素的大小縮放 */
+}
+.head{
+    text-align: center;
+}
